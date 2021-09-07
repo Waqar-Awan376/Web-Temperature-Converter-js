@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header-text">
+                Have your Own Temperature Converter !!!
+            </div>
+        </div>
+    </header>
+    <h1 class="bodyHeadings">
+        <p class="textPart1 bodyFirstHeading">Convert</p>
+        <p class="textPart2 bodyFirstHeading">The</p>
+        <p class="textPart3 bodyFirstHeading">Temperature</p>
+        <p class="textPart4 bodyFirstHeading">Now</p>
+        <p class="textPart5 bodyFirstHeading">...!!</p>
+    </h1>
+
+    <table>
+        <tr>
+            <td style="color: red;">Enter temperature in either Celsius or Farenheit</td>
+            <td><input type="number" id="inputTemperature" style="font-weight: bolder;padding: 5px;outline: none;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">Converted Temperature</td>
+            <td><input type="number" id="resultantTemp" style="font-weight: bolder;padding: 5px;outline: none;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: right;"><Button id="convertCtoFButton" class="conversionButtons">Convert C to
+                    F</Button></td>
+            <td><Button id="convertFtoCButton" class="conversionButtons">Convert F to C</Button></td>
+        </tr>
+    </table>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
